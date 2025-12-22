@@ -32,7 +32,7 @@ export default function Hero() {
         </h1>
         <p className="max-w-xl text-sm text-zinc-300/90 sm:text-base">
           I build modern, animated, and performant web applications with React, Next.js and
-          Node.js – from smooth frontends to reliable backends. I have worked on SaaS projects where I implemented Gen AI and other cutting-edge technologies to create intelligent, scalable solutions.
+          Node.js, Nest.js– from smooth frontends to reliable backends. I have worked on SaaS projects where I implemented Gen AI and other cutting-edge technologies to create intelligent, scalable solutions.
         </p>
         <p className="max-w-xl text-sm text-zinc-400 sm:text-[0.95rem]">
           Right now I&apos;m working at{" "}
