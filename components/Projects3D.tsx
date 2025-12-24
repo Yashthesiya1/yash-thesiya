@@ -7,7 +7,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { SiGithub, SiVercel } from "react-icons/si";
 import * as THREE from "three";
 
-const projects = [
+export const projects = [
   {
     id: 1,
     title: "Creativeshizzle",
@@ -33,7 +33,7 @@ const projects = [
 ];
 
 // Animated Orb Ring around cards
-function OrbRing({ position, color, index }: { position: [number, number, number]; color: string; index: number }) {
+export function OrbRing({ position, color, index }: { position: [number, number, number]; color: string; index: number }) {
   const ringRef = useRef<THREE.Group>(null);
   const orbCount = 8;
 
@@ -79,7 +79,7 @@ function OrbRing({ position, color, index }: { position: [number, number, number
 }
 
 // Floating geometric shapes
-function FloatingShape({ position, color, index }: { position: [number, number, number]; color: string; index: number }) {
+export function FloatingShape({ position, color, index }: { position: [number, number, number]; color: string; index: number }) {
   const shapeRef = useRef<THREE.Mesh>(null);
   const shapeType = index % 3;
 
@@ -111,7 +111,7 @@ function FloatingShape({ position, color, index }: { position: [number, number, 
 }
 
 // Enhanced 3D Project Card
-function ProjectCard({ 
+export function ProjectCard({ 
   project, 
   position, 
   index,
